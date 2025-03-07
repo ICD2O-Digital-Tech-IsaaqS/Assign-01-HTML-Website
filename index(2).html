@@ -12,8 +12,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
     <link rel="manifest" href="./Favicon/site.webmanifest">
     <title>My favorite Marvel heroes.</title>
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+    <!-- MDL Progress Bar with Buffering -->
+    <div id="p3" class="mdl-progress mdl-js-progress"></div>
     <h1>A list of my favorite Marvel heroes.</h1>
     <ul> 
         <li>Iron Man</li>
@@ -23,19 +30,11 @@
         <li>Penny Parker</li>
         <li>Venom</li>
         <li>Deadpool</li>
-        <li>wolverine</li>
+        <li>Wolverine</li>
         <li>Jeff the land Shark</li>
     </ul>
     <img src="./images/Heroes.webp" alt="Heroes">
     <link rel="stylesheet" href="./css/style(2).css">
-    <!-- MDL Progress Bar with Buffering -->
-    <div id="p3" class="mdl-progress mdl-js-progress"></div>
-      <script>
-  document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
-    this.MaterialProgress.setProgress(33);
-    this.MaterialProgress.setBuffer(87);
-  });
-      </script>
     <p>Here is the <a href = "./index.html">link</a> to what happen to the MCU and a another <a href = "./index(3).html">link</a> for what I'm excited for in the future of the MCU.</p>
   </body>
 </html>
