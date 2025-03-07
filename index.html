@@ -19,9 +19,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Marvel</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="./index(2).html">List of my favorite Marvel heroes</a>
+            <a class="mdl-navigation__link" href="./index(3).html">The future of the MCU</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Marvel</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="./index(2).html">List of my favorite Marvel heroes</a>
+          <a class="mdl-navigation__link" href="./index(3).html">The future of the MCU</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+      </main>
+    </div>
+    <br>
     <h1>What happen to the MCU?</h1>
     <p>MCU is not like how it use to. Like being a Marvel fan back before 2019-2020 was great we had amazing movies Iron man, Black panther, and etc, but we can't forget about Infinity war and Endgame that was it peak. Ever since Marvel decided to bring shows to Disney+ it kind of fell off. In my opinion not even half of the shows on Disney+ are good and only a few movies were really good. But again it's my opinion.</p>
     <br>
+    <img src="./images/Avengers.png" alt="Avengers">
     <p>What are your thoughts with the MCU?</p>
     <!-- Container for web page content -->
     <main class = "mdl-layout__content" style = "padding-left:20px">
@@ -39,9 +66,5 @@
     It doesn't submit your work.
     </button>
     <link rel="stylesheet" href="./css/style.css">
-    <p>
-    Here is the <a href = "./index(2).html">link</a> to my favorite Marvel heroes and another <a href = "./index(3).html">link</a> for what I'm excited for in the future of the MCU.
-    </p>
-    <img src="./images/Avengers.png" alt="Avengers">
   </body>
 </html>
