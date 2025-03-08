@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>What happened to the MCU?</title>
+    <!-- Meta Data -->
     <meta charset="utf-8">
-    <meta name="description" content="MCU is not like how it use to be.">
+    <meta name="description" content="What happened to the MCU?">
     <meta name="keywords" content="Immaculata, ICS2O">
     <meta name="author" content="Isaaq Simon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,60 +13,43 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
     <link rel="manifest" href="./Favicon/site.webmanifest">
-    <title>MCU is not like how it use to be.</title>
-    <!-- Material Design Lite -->
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <!-- Material Design icon font -->
+    <!-- Google's MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+    <!-- Loading Bar (Progress bar) -->
+    <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
     <!-- Uses a transparent header that draws on top of the layout's background -->
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
           <!-- Title -->
           <span class="mdl-layout-title">Marvel</span>
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="./index(2).html">List of my favorite Marvel heroes</a>
-            <a class="mdl-navigation__link" href="./index(3).html">The future of the MCU</a>
           </nav>
         </div>
       </header>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Marvel</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="./index(2).html">List of my favorite Marvel heroes</a>
-          <a class="mdl-navigation__link" href="./index(3).html">The future of the MCU</a>
+          <a class="mdl-navigation__link" href="index(2).html">List of my favorite Marvel heroes!</a>
+          <a class="mdl-navigation__link" href="index(3).html">The future of the MCU</a>
         </nav>
       </div>
       <main class="mdl-layout__content">
       </main>
     </div>
     <br>
-    <h1>What happen to the MCU?</h1>
-    <p>MCU is not like how it use to. Like being a Marvel fan back before 2019-2020 was great we had amazing movies Iron man, Black panther, and etc, but we can't forget about Infinity war and Endgame that was it peak. Ever since Marvel decided to bring shows to Disney+ it kind of fell off. In my opinion not even half of the shows on Disney+ are good and only a few movies were really good. But again it's my opinion.</p>
-    <br>
-    <img src="./images/Avengers.png" alt="Avengers">
-    <p>What are your thoughts with the MCU?</p>
-    <!-- Container for web page content -->
-    <main class = "mdl-layout__content" style = "padding-left:20px">
-    <!-- Get user input -->
-    <div class = "page-content">Enter here:</div>
-    <!-- Simple Textfield for Integers (not decimals)-->
-    <form action="#">
-    <div class="mdl-textfield mdl-js-textfield">
-    <!-- input pattern attribute -->
-    <input class="mdl-textfield__input" type="text" id="demo-input" />
-    </div>
-    </form>      
-    <!-- Raised button with ripple -->
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
-    It doesn't submit your work.
-    </button>
-    <link rel="stylesheet" href="./css/style.css">
-  </body>
+    <h1>What happening to the MCU?</h1>
+    <p>
+        The MCU fell off with most of its recent projects and in my opinion as a Marvel fan it sad, and I'm blaming all of this on Disney! Why? Cause I can.
+    </p>
+    <img src="images/MCU.png" width="200" height="90" alt="MCU">
+    <!-- Slider with Starting Value -->
+    <input class="mdl-slider mdl-js-slider" type="range"
+      min="0" max="100" value="25" tabindex="0">
+</body>
 </html>
